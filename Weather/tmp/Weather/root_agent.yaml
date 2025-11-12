@@ -1,0 +1,7 @@
+name: Weather
+model: gemini-2.5-flash
+agent_class: LlmAgent
+instruction: "Your task is to return the weather of a city mentioned by the user "
+sub_agents: []
+tools:
+  - name: google_search
